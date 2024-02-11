@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen  h-[calc(100dvh)] flex-col items-center justify-between p-4 overflow-visible">
-      <div className="fixed top-56 flex place-items-center lg:top-40">
+      <div className="fixed top-60 flex place-items-center lg:top-40">
         <Image
           className=" dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/stowarzyszenie_wszyscy_w_gory.jpeg"
@@ -15,7 +15,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="fixed top-8 left-0 flex h-48 w-full items-end justify-center  from-white via-white dark:from-black dark:via-black bg-gradient-to-b lg:top-6 lg:bg-gradient-to-b">
+      <div className="fixed top-12 left-0 flex h-48 w-full items-end justify-center  from-white via-white dark:from-black dark:via-black bg-gradient-to-b lg:top-6 lg:bg-gradient-to-b">
         <Image
           src="/wszyscy_w_gory_logo.png"
           alt="Wszyscy w góry logo"
