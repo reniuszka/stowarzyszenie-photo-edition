@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Stowarzysznie wszyscy w góry",
-  description: "Stowarzysznie wszyscy w góry 2024",
+  title: "Stowarzysznie Wszyscy W Góry",
+  description: "Stowarzysznie Wszyscy W Góry 2024",
 };
 
 export default function RootLayout({
